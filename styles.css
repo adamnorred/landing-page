@@ -1,6 +1,18 @@
-#image {
+#image > a {
     text-decoration: none;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px;
     color: #F9FAF8;
+    font-size: 15px;
 }
 
 .head-container {
@@ -140,6 +152,50 @@
 .quote-author {
     font-size: 25px;
     font-weight: 800;
+}
+
+.call-to-action-ctr {
+    background-color: #F9FAF8;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-background {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 150px;
+    border-radius: 10px;
+    gap: 100px;
+}
+
+.cta-text-col {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.cta {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.cta-under {
+    color: #E5E7EB;
+}
+
+.cta-sign-up {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 800;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 5px 30px;
+    text-decoration: none;
 }
 
 body {
