@@ -1,3 +1,8 @@
+#image {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 .head-container {
     padding: 10px 150px 100px;
     background-color: #1F2937;
@@ -113,6 +118,28 @@
 .txt-for-img {
     text-align: center;
     width: 150px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: normal;
+    font-style: italic;
+    width: 900px;
+}
+
+.quote-author {
+    font-size: 25px;
+    font-weight: 800;
 }
 
 body {
