@@ -1,6 +1,5 @@
 .head-container {
     padding: 10px 150px 100px;
-    color: rgb(224, 57, 210);
     background-color: #1F2937;
 }
 
@@ -30,6 +29,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .hero {
@@ -65,10 +65,54 @@
     background-color: #3882F6;
     font-weight: bold;
     padding: 8px 1px;
-    width: 30%;
+    max-width: 30%;
     text-align: center;
     border-radius: 10px;
     text-decoration: none;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-ctr-first {
+    padding: 50px 200px 100px;
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-ctr-first {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card-txt-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-img {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.txt-for-img {
+    text-align: center;
+    width: 150px;
 }
 
 body {
